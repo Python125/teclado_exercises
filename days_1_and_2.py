@@ -26,10 +26,7 @@ question1 = input("What is your name? ")
 question2 = input("How old are you? ")
 print(f"Your name is {question1} and you are {question2} years old")
 
-# Below you’ll find some code with a number of errors.
-# Try to go through the program line by line and fix the issues in the code
-# In that exercise, it states that I need to correct any issues in the code below:
-
+# In this exercise for day 2, it states that I need to correct any issues in the code below:
 """
 hourly_wage = input("Please enter your hourly wage: ')
 
