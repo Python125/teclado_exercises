@@ -40,8 +40,21 @@ print(id(new_movies))
 
 print(movies == new_movies)
 print(movies is new_movies)
+print(movies)
+print(new_movies)
 
 tv = ["Father Knows Best", "Dragnet", "Dexter"]
 tv.append("Star Trek")
 
 print(id(tv))
+print(tv)
+
+# Ask the user to enter a number. Tell the user whether the number is positive, negative, or zero
+number = float(input("Enter a number: "))
+
+if number > 0:
+    print("The number is positive.")
+elif number < 0:
+    print("The number is negative")
+else:
+    print("The number is zero")
